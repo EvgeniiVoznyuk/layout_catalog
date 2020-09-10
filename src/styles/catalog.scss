@@ -1,9 +1,11 @@
 .catalog {
   width: $card-width * 4 + $columnGap * 3;
-  @include flex-between;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, $card-width);
+  gap: 50px 48px;
   
-  &__card {
-    margin-bottom: $rowGap;
-  }
-}
+  // &__card {
+  //   margin-bottom: $rowGap;
+  // }
+} 
