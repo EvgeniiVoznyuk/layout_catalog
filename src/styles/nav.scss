@@ -23,6 +23,7 @@
     font-style: normal;
     padding: 23px 0;
     color: #000;
+    transition: color 0.5s;
 
     &:hover {
       color: $main-color;
